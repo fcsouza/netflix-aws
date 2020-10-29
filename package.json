@@ -1,0 +1,24 @@
+{
+  "name": "netflix-aws",
+  "version": "1.0.0",
+  "description": "Netflix AWS",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 src/assets/",
+    "dev": "npx http-server --cors -p 8080 src/public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fcsouza/netflix-aws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fcsouza/netflix-aws/issues"
+  },
+  "homepage": "https://github.com/fcsouza/netflix-aws",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
